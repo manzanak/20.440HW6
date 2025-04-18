@@ -1,14 +1,18 @@
 # Microbial Abundance Visualization for BV Recurrence Types
 This project visualizes the relative abundance of specific OTUs (Operational Taxonomic Units) over various follow-ups for HIV positive women with Bacterial Vaginosis (BV), based on sequencing data. The code plots the relative abundance of patients labeled with a recurrence type of **No Initial Response**, **Immediate Recurrence**, and **Delayed Recurrence** and a patient who had successful response to antibiotic treatments.
 
-## Dataset
-Here we use an edited dataset composed of subject diagnostic information and vaginal microbiota of 132 HIV positive Tanzanian women (including 39 who received metronidazole treatment for BV) with added columns for BV status and Recurrence Type. A BV status of 1 indicates positive and 0 indicated negative for BV based on a nugent score of 7 or greater. The recurrence types are defined as 
+## Datasets
+The datasets for the patient data and taxonomy for the OTU reads are stored in the datasets folder.
+
+The patient data is an edited dataset composed of subject diagnostic information and vaginal microbiota of 132 HIV positive Tanzanian women (including 39 who received metronidazole treatment for BV) with added columns for BV status and Recurrence Type. A BV status of 1 indicates positive and 0 indicated negative for BV based on a nugent score of 7 or greater. The recurrence types are defined as 
 - **No Initial Response**: BV positive for all follow-ups,
 - **Immediate Recurrence**: BV positive after one negative follow-up,
 - **Delayed Recurrence**: BV positive after two or more negative follow-ups,
 
 No recurrence is labeled as
 - **Successful Response**: BV negative for all follow-ups after first visit.
+
+The taxonomic classifacation dataset is the original provided by Hummelen et al. (2010). 
 
 ## Project Files
 diagnosis_data.csv -- Edited dataset from Hummelen et al. (2010) containing initial and follow-up tests (Amsel score, Nugent score, pH, OTUs, etc.) with added features BV status and Recurrence Type as desribed above. 
