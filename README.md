@@ -17,14 +17,17 @@ The taxonomic classifacation dataset is the original provided by Hummelen et al.
 ## Project Files
 
 In code folder:
+
 re_fig.py -- Python script to run in terminal to create the relative abundance graphs as described above.
 
 In datasets folder: 
+
 diagnosis_data.csv -- Edited dataset from Hummelen et al. (2010) containing initial and follow-up tests (Amsel score, Nugent score, pH, OTUs, etc.) with added features BV status and Recurrence Type as desribed above. 
 
 classification.csv -- Original taxonomical classification for identified OTUs from Hummelen et al. (2010). 
 
 In figures folder:
+
 expected_result.png -- Expected graphs created from running re_fig.py. 
 
 
