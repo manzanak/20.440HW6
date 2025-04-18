@@ -9,14 +9,13 @@ Here we use an edited dataset composed of subject diagnostic information and vag
 
 No recurrence is labeled as
 - **Successful Response**: BV negative for all follow-ups after first visit.
-Original dataset is accessible here.
 
 ## Project Files
 diagnosis_data.csv -- Edited dataset from Hummelen et al. (2010) containing initial and follow-up tests (Amsel score, Nugent score, pH, OTUs, etc.) with added features BV status and Recurrence Type as desribed above. 
 
 classification.csv -- Original taxonomical classification for identified OTUs from Hummelen et al. (2010). 
 
-expected_output.png -- Expected graphs created from running re_fig.py. 
+expected_result.png -- Expected graphs created from running re_fig.py. 
 
 ## Packages 
 pandas version: 2.2.2
